@@ -1,0 +1,13 @@
+#Shell
+alias tree='tree -a -I ".svn|.git|.hg"'
+alias tree2='tree -L 2'
+alias tree3='tree -L 3'
+alias l='ls -Ahl'
+
+
+#MVN
+alias mi='mvn clean install'
+alias mci='mvn clean install'
+alias mcit='mvn clean install -DskipTests'
+alias mcd='mvn clean deploy'
+alias mgs='mvn generate-sources'
